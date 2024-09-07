@@ -1,0 +1,8 @@
+/* @apply es para aplicar clases CSS de tailwind directamente */
+.link {
+    @apply hover:underline hover:text-blue-400 mr-2 transition-all;
+}
+
+.active-link {
+    @apply text-blue-500;
+}
